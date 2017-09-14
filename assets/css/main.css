@@ -1,0 +1,32 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.navbar-header{
+    height: 70px;
+}
+.hero-section{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/taxi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+/*.principio{
+	background-color: orange;
+	margin-top: 50px;
+
+}*/
+.columna1{
+	margin-top: 150px;
+	border: 5px solid yellow;
+	height: 40vh;
+}
+#cel-descarga{
+	background-color: red;
+	border: 1px solid blue;
+}
+.columna2{
+	border: 5px solid yellow;
+}
