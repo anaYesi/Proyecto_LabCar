@@ -22,12 +22,113 @@
 	margin-top: 150px;
 	border: 5px solid yellow;
 	height: 40vh;
+	background-color: orange;
+	color: white;
 }
+.texto1{
+	margin-left: 1vw;
+	font-size: 1vw;/**/
+}
+.texto1 h1{
+	font-size: 2vw;
+}
+.registrate a{
+	color: white;
+}
+.registrate a:hover{
+	color: red;
+	text-decoration: none;
+}
+.linea {
+	margin-top: 2vh;
+	width: 100%;
+	height: 20px;
+	/*background-color: red;*/
+	display: flex;
+	justify-content: center;
+}
+.linea hr{
+	width: 12vw;
+	height: 10px;
+}
+.button{
+	margin-top: 2.5vh;
+	color: black;
+}
+.button button{
+	width: 15vw;
+	height: 5vh;
+	border-radius: 5px;
+	font-weight: bold;
+	background-color:white;
+	border-color: transparent;
+}
+/*Seccion 2*/
 #cel-descarga{
-	background-color: red;
+	background-color: orange;
 	height: 91vh; 
 	border: 1px solid blue;
 }
 .columna2{
 	border: 5px solid yellow;
+	margin-top: 30px;
+	height: 83vh;
+	display: flex;
+}
+.celular{
+	margin-top: 15vh;
+	margin-left: 5vw;
+}
+.texto2{
+	margin-top: 10vh;
+	margin-left: 6vw;
+	font-size: 1vw;
+}
+.informacion{
+	background-color: purple;
+	width: 29vw;
+	color: white;
+}
+/*seccion 3*/
+.conduciendo{
+	width: 100%;
+	height: 91vh;
+	background-image: url(../img/conduce.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+.columna3{
+	border: 5px solid yellow;
+	height: 40vh;
+	background-color: orange;
+	color: white;
+}
+.texto3{
+	/*margin-left: 1vw;*/
+	font-size: 1vw;/**/
+	background-color: rgba(37,35,29,0.72);
+	height: 40vh;
+	width: 31.7vw;
+	margin-top:-0.5vw
+}
+.text-conduce{
+	font-size: 2vw;
+	padding: 20px;
+	width: 100%;
+	font-size: 2vw;
+	background-color: red;
+}
+.button2{
+	margin-top: 2.5vh;
+	color: black;
+	margin-left: 20px;
+}
+.button2 button{
+	width: 15vw;
+	height: 5vh;
+	border-radius: 5px;
+	font-weight: bold;
+	background-color:white;
+	border-color: transparent;
 }
