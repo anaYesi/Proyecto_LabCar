@@ -20,7 +20,6 @@
 }*/
 .columna1{
 	margin-top: 150px;
-	border: 5px solid yellow;
 	height: 40vh;
 	background-color: orange;
 	color: white;
@@ -43,7 +42,6 @@
 	margin-top: 2vh;
 	width: 100%;
 	height: 20px;
-	/*background-color: red;*/
 	display: flex;
 	justify-content: center;
 }
@@ -67,10 +65,9 @@
 #cel-descarga{
 	background-color: orange;
 	height: 91vh; 
-	border: 1px solid blue;
 }
 .columna2{
-	border: 5px solid yellow;
+	border: 1px solid white;
 	margin-top: 30px;
 	height: 83vh;
 	display: flex;
@@ -83,9 +80,9 @@
 	margin-top: 10vh;
 	margin-left: 6vw;
 	font-size: 1vw;
+	color: white;
 }
 .informacion{
-	background-color: purple;
 	width: 29vw;
 	color: white;
 }
@@ -99,25 +96,21 @@
 	background-position: bottom;
 }
 .columna3{
-	border: 5px solid yellow;
 	height: 40vh;
-	background-color: orange;
 	color: white;
 }
 .texto3{
-	/*margin-left: 1vw;*/
 	font-size: 1vw;/**/
 	background-color: rgba(37,35,29,0.72);
 	height: 40vh;
-	width: 31.7vw;
-	margin-top:-0.5vw
+	width: 31.9vw;
+	margin-top:-0.1vw
 }
 .text-conduce{
 	font-size: 2vw;
 	padding: 20px;
 	width: 100%;
 	font-size: 2vw;
-	background-color: red;
 }
 .button2{
 	margin-top: 2.5vh;
@@ -129,6 +122,56 @@
 	height: 5vh;
 	border-radius: 5px;
 	font-weight: bold;
-	background-color:white;
+	background-color:orange;
 	border-color: transparent;
+}
+/*Seccion Tarifas*/
+#tarifas{
+	background-color: orange;
+	height: 91vh; 
+}
+
+.columnaTarifa1, .columnaTarifa2{
+	/*border: 5px solid yellow;*/
+	height: 80vh;
+	color: white;
+	margin-top: 50px;	
+}
+input{
+	border-radius: 10px;
+	width: 50%;
+	height: 5vh;
+	background-color: transparent;
+}
+.consulta-tarifas{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.button3{
+	margin-top: 6vw;
+	margin-left: 120px;
+	color: black;
+	width: 25%;
+	height: 5vh;
+	background-color: white;
+	border-radius: 3px;
+	border-color: transparent;
+	font-size: 1vw;
+}
+/*footer*/
+.footer{
+	height: 70vh;
+	background-color: green;
+}
+
+@media (min-width: 100px) and (max-width: 992px) {
+	.columna1{
+	margin-left: 50%;
+	}
+	.texto1{
+	margin-left: 1vw;
+	font-size: 1vw;/**/
+	margin-top: 8%;
+	}
+	
 }
